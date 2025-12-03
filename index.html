@@ -246,7 +246,7 @@
     <section id="team" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <h2 class="text-3xl font-extrabold text-slate-900">Meet Our Experts</h2>
+                <h2 class="text-3xl font-extrabold text-slate-900">Meet Our Team</h2>
                 <p class="mt-4 text-slate-600">The team that keeps the gears of the freight industry turning.</p>
             </div>
 
@@ -257,7 +257,7 @@
                         <i class="fas fa-user text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900">Craig Trickett</h3>
-                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <p class="text-red-600 font-medium text-sm mb-4">Founder/Owner</p>
                     <div class="space-y-2 text-sm text-slate-600">
                         <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 64 939 4909</p>
                         <p><i class="fas fa-envelope mr-2 text-slate-400"></i> craig@revivalshipping.co.za</p>
@@ -270,7 +270,7 @@
                         <i class="fas fa-user text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900">Jaco Pieterse</h3>
-                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <p class="text-red-600 font-medium text-sm mb-4">Operations Manager</p>
                     <div class="space-y-2 text-sm text-slate-600">
                         <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 83 218 5837</p>
                         <p><i class="fas fa-envelope mr-2 text-slate-400"></i> jaco@revivalshipping.co.za</p>
@@ -283,7 +283,7 @@
                         <i class="fas fa-user text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900">Paul Venter</h3>
-                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <p class="text-red-600 font-medium text-sm mb-4">Marketing and Client Relations</p>
                     <div class="space-y-2 text-sm text-slate-600">
                         <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 81 685 4768</p>
                         <p><i class="fas fa-envelope mr-2 text-slate-400"></i> paul@revivalshipping.co.za</p>
@@ -296,7 +296,8 @@
                         <i class="fas fa-user text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-slate-900">Kim Jones</h3>
-                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <p class="text-red-600 font-medium text-xs mb-1 uppercase tracking-wide">Strategic Partner</p>
+                    <p class="text-slate-500 font-bold text-[10px] mb-4 leading-tight">Keystone International<br>Sourcing & Shipping</p>
                     <div class="space-y-2 text-sm text-slate-600">
                         <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 82 227 5073</p>
                         <p><i class="fas fa-envelope mr-2 text-slate-400"></i> info@revivalshipping.co.za</p>
@@ -322,18 +323,19 @@
                 </div>
 
                 <div class="p-10 md:w-1/2 bg-white">
-                    <form onsubmit="event.preventDefault(); alert('This is a demo form. In a real deployment, this would send an email to Revival Shipping.');">
+                    <div class="p-10 md:w-1/2 bg-white">
+                    <form action="mailto:jaco@revivalshipping.co.za,info@revivalshipping.co.za?subject=New Quote Request from Website" method="post" enctype="text/plain">
                         <div class="mb-4">
                             <label class="block text-slate-700 text-sm font-bold mb-2" for="name">Name</label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="name" type="text" placeholder="John Doe">
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="name" name="name" type="text" placeholder="John Doe">
                         </div>
                         <div class="mb-4">
                             <label class="block text-slate-700 text-sm font-bold mb-2" for="email">Business Email</label>
-                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="email" type="email" placeholder="john@company.com">
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="email" name="email" type="email" placeholder="john@company.com">
                         </div>
                         <div class="mb-6">
                             <label class="block text-slate-700 text-sm font-bold mb-2" for="type">I am interested in...</label>
-                            <select class="shadow border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="type">
+                            <select class="shadow border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="type" name="interest">
                                 <option>Business Account (Regular Shipping)</option>
                                 <option>One-off Shipment</option>
                                 <option>Just more info on D-Sticker</option>
@@ -356,8 +358,9 @@
                     <span class="text-white font-black text-2xl tracking-tighter">REVIVAL</span>
                     <span class="text-white font-bold text-lg tracking-widest">SHIPPING</span>
                 </div>
-                <div class="text-sm">
-                    &copy; 2025 Revival Shipping. All rights reserved.
+                <div class="text-sm text-center md:text-right">
+                    <p>&copy; 2025 Revival Shipping. All rights reserved.</p>
+                    <p class="text-xs text-gray-600 mt-1">Designed and Managed By SkyRocket Marketing</p>
                 </div>
             </div>
             <div class="text-center text-xs text-gray-600">
