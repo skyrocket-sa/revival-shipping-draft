@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revival Shipping | Global Logistics & Secure Tracking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1494412574643-35d324698428?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800">
+
+    <!-- Navigation -->
+    <nav class="bg-black shadow-lg fixed w-full z-50 border-b-4 border-red-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <div class="flex flex-col">
+                        <span class="text-white font-black text-2xl tracking-tighter leading-none">REVIVAL</span>
+                        <span class="text-white font-bold text-lg tracking-widest leading-none">SHIPPING</span>
+                    </div>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-gray-300 hover:text-white transition font-medium">Services</a>
+                    <a href="#about" class="text-gray-300 hover:text-white transition font-medium">About</a>
+                    <a href="#innovation" class="text-red-500 hover:text-red-400 transition font-bold">D-Sticker Tracking</a>
+                    <a href="#team" class="text-gray-300 hover:text-white transition font-medium">Team</a>
+                </div>
+
+                <!-- CTA Button & Mobile Hamburger -->
+                <div class="flex items-center gap-4">
+                    <a href="#quote" class="bg-red-600 hover:bg-red-700 text-white px-4 md:px-6 py-2 rounded-sm text-sm font-bold uppercase tracking-wide transition duration-150 ease-in-out">
+                        Get a Quote
+                    </a>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-btn" class="md:hidden text-white focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-zinc-900 border-t border-zinc-800">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#services" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Services</a>
+                <a href="#about" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+                <a href="#innovation" class="text-red-500 hover:text-red-400 block px-3 py-2 rounded-md text-base font-bold">D-Sticker Tracking</a>
+                <a href="#team" class="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-bg h-screen flex items-center justify-center relative">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white pt-20">
+            <div class="inline-block bg-red-600 text-white text-xs font-bold px-4 py-1 mb-6 tracking-widest uppercase">
+                Global Logistics Partner
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+                Where Global Logistics Meets<br>
+                <span class="text-red-600">Business Potential.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto font-light">
+                We handle your cargo with guaranteed service and efficiency. From startup support to large-scale freight forwarding, we move your business forward.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#quote" class="bg-red-600 text-white px-8 py-3 rounded-sm font-bold uppercase hover:bg-red-700 transition shadow-lg shadow-red-900/50">
+                    Request Rate
+                </a>
+                <a href="#services" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-sm font-bold uppercase hover:bg-white hover:text-black transition">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-sm font-bold text-red-600 uppercase tracking-widest mb-2">About Us</h2>
+                    <h3 class="text-4xl font-extrabold text-slate-900 mb-6">Dedicated to your company needs.</h3>
+                    <p class="text-slate-600 text-lg mb-6 leading-relaxed">
+                        Revival Shipping is committed to handling your cargo and freight needs with guaranteed service and efficiency, whenever and wherever you need it. With decades of combined experience, we provide dedicated service that enables us to stay ahead of global trends.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6 mt-8">
+                        <div class="border-l-4 border-red-600 pl-4">
+                            <h4 class="font-bold text-slate-900">Our Mission</h4>
+                            <p class="text-sm text-slate-500 mt-1">To understand your company inside and out, streamlining your supply chain to drive measurable results.</p>
+                        </div>
+                        <div class="border-l-4 border-black pl-4">
+                            <h4 class="font-bold text-slate-900">Our Vision</h4>
+                            <p class="text-sm text-slate-500 mt-1">Unlocking potential and supporting your expansion in an ever-changing industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-slate-100 p-8 rounded-lg relative">
+                    <!-- Decor element -->
+                    <div class="absolute -top-4 -right-4 w-24 h-24 bg-red-600 -z-10"></div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white p-6 shadow-sm">
+                            <i class="fas fa-handshake text-3xl text-red-600 mb-3"></i>
+                            <h4 class="font-bold">Loyalty</h4>
+                        </div>
+                        <div class="bg-white p-6 shadow-sm">
+                            <i class="fas fa-user-shield text-3xl text-red-600 mb-3"></i>
+                            <h4 class="font-bold">Respect</h4>
+                        </div>
+                        <div class="bg-white p-6 shadow-sm col-span-2">
+                            <i class="fas fa-shipping-fast text-3xl text-red-600 mb-3"></i>
+                            <h4 class="font-bold">Dedication</h4>
+                            <p class="text-sm text-slate-500 mt-2">Creating strong work ethics and lasting partnerships.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section id="services" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900">Our Logistics Services</h2>
+                <p class="mt-4 text-slate-600 max-w-2xl mx-auto">Comprehensive solutions designed to keep trade flowing and supply chains strong.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 border-t-4 border-red-600 shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-6 text-red-600 group-hover:bg-red-600 group-hover:text-white transition">
+                        <i class="fas fa-ship text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Sea Freight</h3>
+                    <p class="text-slate-600 text-sm">Dependable solutions for large-volume cargo (FCL & LCL). Connecting your business to major ports worldwide.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 border-t-4 border-black shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6 text-black group-hover:bg-black group-hover:text-white transition">
+                        <i class="fas fa-plane-departure text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Air Freight</h3>
+                    <p class="text-slate-600 text-sm">Efficient choices for urgent or high-value cargo. Global networks ensuring your goods move quickly.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 border-t-4 border-red-600 shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-6 text-red-600 group-hover:bg-red-600 group-hover:text-white transition">
+                        <i class="fas fa-truck text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Road Freight</h3>
+                    <p class="text-slate-600 text-sm">Vital inland transport linking ports and warehouses with safe, dependable routing options.</p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-white p-8 border-t-4 border-black shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6 text-black group-hover:bg-black group-hover:text-white transition">
+                        <i class="fas fa-file-contract text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Customs Clearance</h3>
+                    <p class="text-slate-600 text-sm">We manage documentation and compliance to reduce risk and unexpected costs.</p>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="bg-white p-8 border-t-4 border-red-600 shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-red-50 rounded-lg flex items-center justify-center mb-6 text-red-600 group-hover:bg-red-600 group-hover:text-white transition">
+                        <i class="fas fa-warehouse text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Warehousing</h3>
+                    <p class="text-slate-600 text-sm">Flexible storage and inventory management providing the visibility you need.</p>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="bg-white p-8 border-t-4 border-black shadow-sm hover:shadow-xl transition group">
+                    <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6 text-black group-hover:bg-black group-hover:text-white transition">
+                        <i class="fas fa-rocket text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Startup Support</h3>
+                    <p class="text-slate-600 text-sm">Tailored solutions guiding new businesses from their first shipment to reliable supply chains.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Highlight (D-Sticker) -->
+    <section id="innovation" class="py-20 bg-black text-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <div class="inline-block bg-red-600 text-xs font-bold px-3 py-1 mb-4 rounded-sm uppercase">Exclusive Partnership</div>
+                    <h2 class="text-3xl md:text-5xl font-extrabold mb-6">Security Re-imagined: The D-Sticker.</h2>
+                    <p class="text-gray-400 text-lg mb-8">
+                        In partnership with DigitFMS, we bring you "Peace of mind you can place anywhere." A wireless, ultra-thin tracking solution for high-value assets.
+                    </p>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-red-600"></i> No wiring or installation needed</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-red-600"></i> 6-week battery life</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check-circle text-red-600"></i> Live tracking via app</li>
+                    </ul>
+                    <a href="#quote" class="inline-block bg-white text-black px-6 py-3 font-bold rounded-sm hover:bg-gray-200 transition">Add to Shipment</a>
+                </div>
+                <div class="md:w-1/2 bg-gray-900 p-8 rounded-lg border border-gray-700">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold">Cut. Stick. Track.</h3>
+                        <p class="text-gray-500 text-sm">It's really that simple.</p>
+                    </div>
+                    <div class="flex justify-between text-center gap-4">
+                        <div class="bg-gray-800 p-4 rounded w-1/3">
+                            <div class="text-red-600 font-bold text-xl mb-2">1</div>
+                            <div class="text-sm">Activate</div>
+                        </div>
+                        <div class="bg-gray-800 p-4 rounded w-1/3">
+                            <div class="text-red-600 font-bold text-xl mb-2">2</div>
+                            <div class="text-sm">Place</div>
+                        </div>
+                        <div class="bg-gray-800 p-4 rounded w-1/3">
+                            <div class="text-red-600 font-bold text-xl mb-2">3</div>
+                            <div class="text-sm">Track</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-extrabold text-slate-900">Meet Our Experts</h2>
+                <p class="mt-4 text-slate-600">The team that keeps the gears of the freight industry turning.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Team Member 1: Craig Trickett -->
+                <div class="bg-white border border-slate-200 rounded-lg p-6 hover:border-red-600 transition duration-300 shadow-sm hover:shadow-lg text-center">
+                    <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Craig Trickett</h3>
+                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <div class="space-y-2 text-sm text-slate-600">
+                        <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 64 939 4909</p>
+                        <p><i class="fas fa-envelope mr-2 text-slate-400"></i> craig@revivalshipping.co.za</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 2: Jaco Pieterse -->
+                <div class="bg-white border border-slate-200 rounded-lg p-6 hover:border-red-600 transition duration-300 shadow-sm hover:shadow-lg text-center">
+                    <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Jaco Pieterse</h3>
+                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <div class="space-y-2 text-sm text-slate-600">
+                        <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 83 218 5837</p>
+                        <p><i class="fas fa-envelope mr-2 text-slate-400"></i> jaco@revivalshipping.co.za</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 3: Paul Venter -->
+                <div class="bg-white border border-slate-200 rounded-lg p-6 hover:border-red-600 transition duration-300 shadow-sm hover:shadow-lg text-center">
+                    <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Paul Venter</h3>
+                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <div class="space-y-2 text-sm text-slate-600">
+                        <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 81 685 4768</p>
+                        <p><i class="fas fa-envelope mr-2 text-slate-400"></i> paul@revivalshipping.co.za</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 4: Kim Jones -->
+                <div class="bg-white border border-slate-200 rounded-lg p-6 hover:border-red-600 transition duration-300 shadow-sm hover:shadow-lg text-center">
+                    <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400">
+                        <i class="fas fa-user text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900">Kim Jones</h3>
+                    <p class="text-red-600 font-medium text-sm mb-4">Freight Expert</p>
+                    <div class="space-y-2 text-sm text-slate-600">
+                        <p><i class="fas fa-phone mr-2 text-slate-400"></i> +27 (0) 82 227 5073</p>
+                        <p><i class="fas fa-envelope mr-2 text-slate-400"></i> info@revivalshipping.co.za</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote / Form Section (Restored) -->
+    <section id="quote" class="py-20 bg-slate-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col md:flex-row border border-slate-200">
+                
+                <div class="p-10 md:w-1/2 bg-black text-white flex flex-col justify-center">
+                    <h2 class="text-3xl font-bold mb-4">Ready to ship safely?</h2>
+                    <p class="text-gray-400 mb-6">Open a business account today or get a quote for a one-off secure shipment.</p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center gap-3"><i class="fas fa-check text-red-600"></i> Free Account Setup</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check text-red-600"></i> Volume Discounts</li>
+                        <li class="flex items-center gap-3"><i class="fas fa-check text-red-600"></i> Priority Support</li>
+                    </ul>
+                </div>
+
+                <div class="p-10 md:w-1/2 bg-white">
+                    <form onsubmit="event.preventDefault(); alert('This is a demo form. In a real deployment, this would send an email to Revival Shipping.');">
+                        <div class="mb-4">
+                            <label class="block text-slate-700 text-sm font-bold mb-2" for="name">Name</label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="name" type="text" placeholder="John Doe">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-slate-700 text-sm font-bold mb-2" for="email">Business Email</label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="email" type="email" placeholder="john@company.com">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-slate-700 text-sm font-bold mb-2" for="type">I am interested in...</label>
+                            <select class="shadow border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:ring-2 focus:ring-red-600" id="type">
+                                <option>Business Account (Regular Shipping)</option>
+                                <option>One-off Shipment</option>
+                                <option>Just more info on D-Sticker</option>
+                            </select>
+                        </div>
+                        <button class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-4 rounded w-full transition duration-150 ease-in-out uppercase tracking-wide" type="submit">
+                            Get Quote
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-slate-400 py-12 border-t border-red-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                 <div class="flex flex-col mb-4 md:mb-0">
+                    <span class="text-white font-black text-2xl tracking-tighter">REVIVAL</span>
+                    <span class="text-white font-bold text-lg tracking-widest">SHIPPING</span>
+                </div>
+                <div class="text-sm">
+                    &copy; 2025 Revival Shipping. All rights reserved.
+                </div>
+            </div>
+            <div class="text-center text-xs text-gray-600">
+                Partnered with DigitFMS for Advanced Asset Tracking.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
